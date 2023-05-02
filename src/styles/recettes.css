@@ -1,0 +1,77 @@
+html{
+    margin: 0;
+}
+
+.recettes{
+    background-image: url("https://wallpapercave.com/dwp1x/wp9319039.jpg");
+    background-size:cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ContainerCards{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin-left:8%;
+    grid-auto-flow: dense;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width:30vw;
+        height:70vh;
+        background: #444;
+        border-radius: 2rem;
+        color: white;
+        padding: 1rem;
+        margin: 1rem;
+        overflow-y: scroll;
+    }
+    .card img{
+        width: 28vw;
+        height: 50%;
+        border-radius: 1rem;
+        box-shadow: 3px 3px 3px;
+
+    }
+    .cardDes{
+        display: flex;
+    }
+
+    .formSearch{
+        width:80vw;
+        padding: 20px;
+    }
+    .formSearch input{
+    padding: 0.8rem;
+    }
+.no-results{
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:769px){
+
+
+    .ContainerCards{
+        display: grid;
+        grid-template-columns:1fr;
+        margin-left:0%;
+        }
+        .card{
+            width:70vw;
+            height:70vh;
+            padding: 1rem;
+            margin: 1rem;
+            overflow-y: scroll;
+        }
+        .card img{
+            width: 70vw;
+            height: 50%;
+            border-radius: 1rem;
+            box-shadow: 3px 3px 3px;
+    
+        }
+}
