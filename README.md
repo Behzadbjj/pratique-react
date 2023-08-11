@@ -1,3 +1,24 @@
+
+Projet A Table : Application de Gestion de Contenu de Recettes
+Projet A Table est une application de gestion de contenu de recettes développée en utilisant React. L'application offre une expérience conviviale permettant aux utilisateurs de rechercher, filtrer et afficher des recettes, ainsi que leurs détails et images associées.
+
+Fonctionnalités
+Recherche de recettes : Utilisez la barre de recherche pour trouver des recettes spécifiques.
+Filtrage des résultats : Triez les recettes en fonction de leurs noms pour une navigation aisée.
+Affichage des détails : Accédez à des informations détaillées sur les recettes sélectionnées.
+Affichage des images : Visualisez les images attrayantes des plats proposés.
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
